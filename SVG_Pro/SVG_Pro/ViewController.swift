@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         
         //3: Fiddle with it using CAShapeLayer's properties:
         myShapeLayer.strokeColor =  UIColor(red: 1, green: 1, blue: 1, alpha: 1.0).CGColor
-        myShapeLayer.lineWidth = 3
+        myShapeLayer.lineWidth = 2
         myShapeLayer.fillColor = UIColor.clearColor().CGColor
         
         
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         
         //Make it smaller if we're on an iPhone:
         if UIDevice.currentDevice().userInterfaceIdiom == .Phone {
-            myShapeLayer.transform = CATransform3DMakeScale(0.5, 0.5, 0.5)
+            myShapeLayer.transform = CATransform3DMakeScale(1, 1, 1)
         }
         
         self.view.backgroundColor = UIColor(red: 0.0324, green: 0.0079, blue: 0.0399, alpha: 1.0)
