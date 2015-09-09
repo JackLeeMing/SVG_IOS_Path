@@ -17,6 +17,7 @@
 		7B153A7F1BA00C1000397C3A /* BezierCurve1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7B153A7C1BA00C1000397C3A /* BezierCurve1.svg */; };
 		7B153A801BA00C1000397C3A /* BezierCurve2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7B153A7D1BA00C1000397C3A /* BezierCurve2.svg */; };
 		7B153A811BA00C1000397C3A /* BezierCurve3.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7B153A7E1BA00C1000397C3A /* BezierCurve3.svg */; };
+		7B153A841BA0186A00397C3A /* nlogo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7B153A831BA0186A00397C3A /* nlogo.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		7B153A7C1BA00C1000397C3A /* BezierCurve1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BezierCurve1.svg; sourceTree = "<group>"; };
 		7B153A7D1BA00C1000397C3A /* BezierCurve2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BezierCurve2.svg; sourceTree = "<group>"; };
 		7B153A7E1BA00C1000397C3A /* BezierCurve3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BezierCurve3.svg; sourceTree = "<group>"; };
+		7B153A831BA0186A00397C3A /* nlogo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = nlogo.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		7B153A821BA00C1800397C3A /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				7B153A831BA0186A00397C3A /* nlogo.svg */,
 				7B153A7C1BA00C1000397C3A /* BezierCurve1.svg */,
 				7B153A7D1BA00C1000397C3A /* BezierCurve2.svg */,
 				7B153A7E1BA00C1000397C3A /* BezierCurve3.svg */,
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B153A5D1BA00A6B00397C3A /* Main.storyboard in Resources */,
+				7B153A841BA0186A00397C3A /* nlogo.svg in Resources */,
 				7B153A7F1BA00C1000397C3A /* BezierCurve1.svg in Resources */,
 				7B153A801BA00C1000397C3A /* BezierCurve2.svg in Resources */,
 				7B153A811BA00C1000397C3A /* BezierCurve3.svg in Resources */,
@@ -452,6 +456,7 @@
 				7B153A731BA00A6B00397C3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B153A741BA00A6B00397C3A /* Build configuration list for PBXNativeTarget "SVG_ProTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +465,7 @@
 				7B153A761BA00A6B00397C3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
